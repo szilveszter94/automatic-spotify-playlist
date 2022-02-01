@@ -30,8 +30,8 @@ for i in example2:
     xyz = i.split("\n")
     hundred_artist.append(xyz[1])
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="08056bb0496c4cfa96c6fa2a4a9a9c51",
-                                               client_secret="bbf41cef6aad4c17aef0d4deb6e92d94",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="CLIENT_ID",
+                                               client_secret="CLIENT_SECRET",
                                                redirect_uri="http://127.0.0.1:5500/", state=None,
                                                scope="playlist-modify-private", cache_path="token.txt", username=None,
                                                proxies=None, show_dialog=True, requests_session=True,
